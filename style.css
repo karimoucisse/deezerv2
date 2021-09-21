@@ -18,7 +18,7 @@ a {
     width: 990px;
     margin: auto;
 }
-.heading_2 {
+h2 {
     font-size: 80px;
     margin: 0;
 }
@@ -81,4 +81,17 @@ header nav  div button {
 .premium_container .container button + div {
     font-size: 16px;
     margin-top: 30px;
+}
+/**************************************************************************************************************/
+.explication_container .container h2 {
+    text-align: center;
+
+}
+.explication_container .box_explication {
+
+}
+.explication_container .box_explication .row_explication  {
+    display: flex;
+    margin-top: 30px;
+   
 }
