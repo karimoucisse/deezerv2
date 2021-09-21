@@ -1,3 +1,84 @@
 body {
     margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+a {
+    text-decoration: none;
+}
+.color_black {
+    color: #32323D;
+}
+.color_blue {
+    color: #2d96c8;
+}
+.color_white {
+    color: #fff;
+}
+.container {
+    width: 990px;
+    margin: auto;
+}
+.heading_2 {
+    font-size: 80px;
+    margin: 0;
+}
+header {
+    top: 0;
+    /*width: 100%;*/
+    display: flex;
+    padding: 0 40px  ;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo_deezer img {
+    width: 135px;
+    height: 30px;
+}
+header nav  div{
+    display: inline-block;
+}
+header nav  div ul li {
+    list-style: none;
+    display: inline;
+    margin-left:20px;
+    font-size:18px;
+}
+header nav  div button {
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 35px;
+    padding: 8px 24px;
+    border: 2px solid #2d96c8;
+    background-color: transparent;
+}
+/*********************************************************************************************/
+.premium_container {
+    background: linear-gradient(137deg,#22efcb 15.51%,#2980ff 51.65%,#a125ff 85.09%);
+    padding: 50px 0;
+    
+}
+.premium_container .container {
+   
+    /*margin: 0 66px;
+    padding: 0 20px;*/
+    text-align: center;
+}
+.premium_container .container h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.premium_container .container h3 {
+    font-size: 25px;
+}
+.premium_container .container button {
+    padding: 30px 120px;
+    border-radius: 40px;
+    background-color: #00000066;
+    font-size: 18px;
+}
+.premium_container .container button + div {
+    font-size: 16px;
+    margin-top: 30px;
 }
